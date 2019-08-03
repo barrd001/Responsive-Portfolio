@@ -220,12 +220,13 @@ img {
 
 
 @media screen and (max-width: 980px) {
+
     /* Header for ALL Pages */
     #masthead {
         width: 100%;
     }
 
-
+    /* Main-Container on Index Page */
     .main-index {
         float: left;
         width: 60%;
@@ -234,6 +235,7 @@ img {
 }
 
 @media screen and (max-width: 768px) {
+
     .main-index {
         width: auto;
 
@@ -242,4 +244,28 @@ img {
 
 @media screen and (max-width: 640px) {
 
+    #masthead {
+        position: fixed;
+        margin-bottom: 10px;
+    }
+    #logo {
+        width: 100%;
+    }
+
+    nav {
+        width: 100%;
+        text-align: center;
+    }
+
+    #main-container {
+        align-content: center;
+        margin-left: 5px;
+        margin-top: 0;
+    }
+
+    .auth-image{
+        width: 100%;
+        height: auto;
+        margin-bottom: 10px;
+    }
 }
