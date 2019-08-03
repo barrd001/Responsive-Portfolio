@@ -220,20 +220,26 @@ img {
 
 
 @media screen and (max-width: 980px) {
+    /* Header for ALL Pages */
     #masthead {
         width: 100%;
     }
-    #main-container {
+
+
+    .main-index {
         float: left;
         width: 60%;
         height: auto;
     }
 }
 
-@media screen and (max-width: 768) {
+@media screen and (max-width: 768px) {
+    .main-index {
+        width: auto;
 
+    }
 }
 
-@media screen and (max-width: 640) {
+@media screen and (max-width: 640px) {
 
 }
