@@ -218,7 +218,7 @@ img {
 
 }
 
-
+/* MEDIA QUERIES */
 @media screen and (max-width: 980px) {
 
     /* Header for ALL Pages */
@@ -238,6 +238,13 @@ img {
         width: 70%;
         height: auto;
     }
+
+    /* Main-Section on Contact Page */
+    .main-contact {
+        float: left;
+        width: 70%;
+        height: auto;
+    }
 }
 
 @media screen and (max-width: 768px) {
@@ -247,6 +254,10 @@ img {
     }
     .main-portfolio {
         width: auto;
+    }
+
+    .main-contact {
+        width: 100%;
     }
 }
 
